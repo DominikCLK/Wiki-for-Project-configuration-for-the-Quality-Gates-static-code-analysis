@@ -1,0 +1,1 @@
+# Wiki-for-Project-configuration-for-the-Quality-Gates-static-code-analysis

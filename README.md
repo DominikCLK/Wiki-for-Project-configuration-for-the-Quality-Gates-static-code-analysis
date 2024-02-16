@@ -1,5 +1,7 @@
 # Project configuration for the _Quality Gates (static code analysis)_
 
+The documentation shows how to prepare an automated test project for static code analysis and code formatting using Prettier and ESLint
+
 ## QA
 - [Dominik Calak](https://github.com/DominikCLK)
 

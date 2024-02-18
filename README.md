@@ -335,6 +335,7 @@ npm install --save-dev @trivago/prettier-plugin-sort-imports
 <br>
 
 # 5. Husky  <a id="Husky"></a>
+Automated code verification before commit. Protecting the framework against bugs.
 
 ## 1. Preparing Husky
    

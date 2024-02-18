@@ -1,4 +1,4 @@
-# Project configuration for the _Quality Gates (static code analysis)_
+# Project configuration for the _Quality Gates (static code analysis)_ <a id="0"></a>
 
 The documentation shows how to prepare an automated test project for static code analysis and code formatting using Prettier and ESLint
 
@@ -368,7 +368,7 @@ npm run lint
 ```
 
 
-
+##  ⬆️ [Go up!](#0) ⬆️
 
 
 

@@ -14,14 +14,15 @@ The documentation shows how to prepare an automated test project for static code
 <br>
 
 1. [Playwright Test installation, extensions and settings](#1)
-2. [Prettier settings](#2)
-3. [ESLint setup](#3)
-4. [ESLint setup for Playwright](#4)
-5. [ESLint + Prettier setup](#5)
-6. [Import management](#6)
-7. [Final settings](#7)
-8. [Adds scripts in _package.json_](#8)
-9. [Husky](#9)
+2. [Taking care of code quality](#11)
+> 1. [Prettier settings](#2)
+> 2. [ESLint setup](#3)
+> 3. [ESLint setup for Playwright](#4)
+> 5. [ESLint + Prettier setup](#5)
+2. [Import management](#6)
+3. [Final settings](#7)
+4. [Adds scripts in _package.json_](#8)
+5. [Husky](#9)
 
 
 <br>
@@ -67,7 +68,7 @@ Enable two options: formatting on save and Prettier as the default formatter.
 >- click “right” -> Format Document With.. -> Prettier - Code formatter
 
 
-# 2. Taking care of code quality
+# 2. Taking care of code quality <a id="11"></a>
 
 Prettier: formatting various files to assumed standards.
 ESLint: indicating errors in the code of JS/TS files.

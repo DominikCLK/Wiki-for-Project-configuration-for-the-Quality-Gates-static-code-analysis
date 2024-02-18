@@ -17,10 +17,11 @@ The documentation shows how to prepare an automated test project for static code
 2. [Prettier settings](#Prettier)
 3. [ESLint setup](#ESsetup)
 4. [ESLint setup for Playwright](#EslintPlaywright)
-4. [ESLint + Prettier setup](#EslintPrettier)
-4. [Import management](#Import)
-4. [Final settings](#Final)
-4. [Adds scripts in _package.json_](#scripts)
+5. [ESLint + Prettier setup](#EslintPrettier)
+6. [Import management](#Import)
+7. [Final settings](#Final)
+8. [Adds scripts in _package.json_](#scripts)
+9. [Husky](#Husky)
 
 
 <br>
@@ -331,9 +332,38 @@ npm install --save-dev @trivago/prettier-plugin-sort-imports
   },
 ```
 
+<br>
 
+# 5. Husky  <a id="Husky"></a>
 
+## 1. Preparing Husky
+   
+- Install Husky package
+  
+```
+npm install husky --save-dev
+```
 
+- Install Husky in project
+
+```
+npx husky init
+```
+
+- Adding a linting command to Husky before the commit action
+
+```
+echo "npm run lint" > .husky/pre-commit
+```
+
+- Configuration verification: _.husky folder_, _pre-commit_ file
+
+```
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run lint
+```
 
 
 

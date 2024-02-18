@@ -13,20 +13,20 @@ The documentation shows how to prepare an automated test project for static code
 
 <br>
 
-1. [Playwright Test installation, extensions and settings](#first)
-2. [Prettier settings](#Prettier)
-3. [ESLint setup](#ESsetup)
-4. [ESLint setup for Playwright](#EslintPlaywright)
-5. [ESLint + Prettier setup](#EslintPrettier)
-6. [Import management](#Import)
-7. [Final settings](#Final)
-8. [Adds scripts in _package.json_](#scripts)
-9. [Husky](#Husky)
+1. [Playwright Test installation, extensions and settings](#1)
+2. [Prettier settings](#2)
+3. [ESLint setup](#3)
+4. [ESLint setup for Playwright](#4)
+5. [ESLint + Prettier setup](#5)
+6. [Import management](#6)
+7. [Final settings](#7)
+8. [Adds scripts in _package.json_](#8)
+9. [Husky](#9)
 
 
 <br>
 
-# 1. Playwright Test installation, extensions and settings <a id="first"></a>
+# 1. Playwright Test installation, extensions and settings <a id="1"></a>
 
 <br>
 
@@ -76,7 +76,7 @@ The areas of both tools overlap, so they need to be connected.
 
 <br>
 
-## 1. Prettier settings <a id="Prettier"></a>
+## 1. Prettier settings <a id="2"></a>
 
 >- Open Terminal and type command:
 
@@ -105,7 +105,7 @@ test-results
 
 <br>
 
-## 2. ESLint setup <a id="ESsetup"></a>
+## 2. ESLint setup <a id="3"></a>
 
 >- Install ESLint
 
@@ -143,7 +143,7 @@ npm init @eslint/config
 
 <br>
 
-## 3. ESLint setup for Playwright <a id="EslintPlaywright"></a>
+## 3. ESLint setup for Playwright <a id="4"></a>
 ```
 npm install eslint-plugin-playwright --save-dev
 ```
@@ -160,7 +160,7 @@ npm install eslint-plugin-playwright --save-dev
 
 <br>
 
-## 4. ESLint + Prettier setup <a id="EslintPrettier"></a>
+## 4. ESLint + Prettier setup <a id="5"></a>
 
 - Install package (Resolving conflicts between Prettier and ESLint)
 
@@ -219,7 +219,7 @@ npx eslint . --ext .ts --max-warnings=0
 
 <br>
 
-# 3. Import management <a id="Import"></a>
+# 3. Import management <a id="6"></a>
 
 <br>
 
@@ -260,7 +260,7 @@ npm install --save-dev @trivago/prettier-plugin-sort-imports
 
 <br>
 
-# 4. Final settings <a id="Final"></a>
+# 4. Final settings <a id="7"></a>
 
 
 - .vscode > settings.json
@@ -322,7 +322,7 @@ npm install --save-dev @trivago/prettier-plugin-sort-imports
 <br>
 
 
-# 5. Adds scripts in _package.json_ <a id="scripts"></a>
+# 5. Adds scripts in _package.json_ <a id="8"></a>
 
 ```
   "scripts": {
@@ -334,7 +334,7 @@ npm install --save-dev @trivago/prettier-plugin-sort-imports
 
 <br>
 
-# 5. Husky  <a id="Husky"></a>
+# 5. Husky  <a id="9"></a>
 Automated code verification before commit. Protecting the framework against bugs.
 
 ## 1. Preparing Husky
